@@ -5,6 +5,9 @@ using Serilog;
 // Build a configured logger
 var logger = LoggerBuilder.Build(args);
 
+// A custom CorrelationId
+var correlationId = Guid.NewGuid();
+
 // Log Result Errors, with optional ExtraInfo and an optional
 // CorrelationId override, If a CorrelationId is not provided,
 // it will be taken from Result.CorrelationId (if it exists)
@@ -16,7 +19,7 @@ logger.LogResultErrors(
         { "Code", "ABC123" },
         { "Number", "987654321" }
     },
-    Guid.NewGuid());
+    correlationId);
 
 // Always close and flush before terminating your app
 Log.CloseAndFlush();
