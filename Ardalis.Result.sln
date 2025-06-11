@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardalis.Result.FluentAssert
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardalis.Result.FluentAssertions.UnitTests", "tests\Ardalis.Result.FluentAssertions.UnitTests\Ardalis.Result.FluentAssertions.UnitTests.csproj", "{0800019A-0B40-4923-96E1-656A745E79C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardalis.Result.SampleErrorsLogging", "sample\Ardalis.Result.SampleErrorsLogging\Ardalis.Result.SampleErrorsLogging.csproj", "{15C8FBAA-02CC-65F4-28FA-3E8D73211E8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,10 @@ Global
 		{0800019A-0B40-4923-96E1-656A745E79C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0800019A-0B40-4923-96E1-656A745E79C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0800019A-0B40-4923-96E1-656A745E79C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C8FBAA-02CC-65F4-28FA-3E8D73211E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C8FBAA-02CC-65F4-28FA-3E8D73211E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C8FBAA-02CC-65F4-28FA-3E8D73211E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C8FBAA-02CC-65F4-28FA-3E8D73211E8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +131,7 @@ Global
 		{C522FE42-BBEF-46A7-9E3E-44EA8339AF2E} = {42693FB1-04E1-4635-B249-E1847609E801}
 		{94145FF9-5A56-4479-87AF-3A99939B38F0} = {865A74CD-F478-4AA5-AFA5-6C26FB38B849}
 		{0800019A-0B40-4923-96E1-656A745E79C2} = {42693FB1-04E1-4635-B249-E1847609E801}
+		{15C8FBAA-02CC-65F4-28FA-3E8D73211E8D} = {FA061DC6-61B7-401F-87A4-D338B396CCD9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7CD0ED8C-3B1C-4F16-8B8D-3D8F1A8F1A5A}
