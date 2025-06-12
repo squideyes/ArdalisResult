@@ -8,7 +8,7 @@ var logger = LoggerBuilder.Build(args);
 // A custom CorrelationId
 var correlationId = Guid.NewGuid();
 
-// Log Result Errors, with optional ExtraInfo and an optional
+// Logs Result Errors, with optional ExtraInfo and an optional
 // CorrelationId override, If a CorrelationId is not provided,
 // it will be taken from Result.CorrelationId (if it exists)
 // or created using Guid.NewGuid().
